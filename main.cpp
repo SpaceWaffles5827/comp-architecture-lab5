@@ -1,9 +1,17 @@
+//-----------------------------------------------
+// Filename: main.cpp
+// By: Jack Hartwig
+// Description: CPP program to simulate a vending machine
+// Compile Command: g++ main.cpp -o vending_machine -std=c++11
+// Running Command: ./vending_machine
+// or use the ./compile_and_run script
+//-----------------------------------------------
+
+
 #include <iostream>
 #include <unordered_map>
 #include <string>
 #include <iomanip>
-
-// Compile comand g++ main.cpp -o vending_machine -std=c++11
 
 // Constants
 const std::string SECRET_CODE = "1234"; // Secret code to display inventory
