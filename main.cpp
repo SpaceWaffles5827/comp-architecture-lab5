@@ -3,6 +3,8 @@
 #include <string>
 #include <iomanip>
 
+// Compile comand g++ main.cpp -o vending_machine -std=c++11
+
 // Constants
 const std::string SECRET_CODE = "1234"; // Secret code to display inventory
 const int INITIAL_INVENTORY = 2;
